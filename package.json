@@ -1,0 +1,34 @@
+{
+  "name": "command-line-crud",
+  "version": "1.0.0",
+  "description": "Command line CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshlilha/command-line-crud.git"
+  },
+  "keywords": [
+    "terminal",
+    "command-line",
+    "node"
+  ],
+  "author": "adarshlilha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adarshlilha/command-line-crud/issues"
+  },
+  "homepage": "https://github.com/adarshlilha/command-line-crud#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.0",
+    "mongoose": "^5.3.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
